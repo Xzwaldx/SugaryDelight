@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Carrito - Sugary Delight</title>
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html" style="display: block; border: none;">
+                <span class="logo-icon">🎂</span>
+                <div class="logo-text">
+                    <h1>Sugary Delight</h1>
+                    <p>Pastelería de Diseño</p>
+                </div>
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="nosotros.html">Sobre nosotros</a>
+            <a href="promociones.html">Promociones</a>
+            <a href="contacto.html">Contacto</a>
+            <div class="dropdown">
+                <a href="catalogo.html" class="dropdown-trigger">Catálogo ▾</a>
+            </div>
+        </nav>
+        <div class="nav-actions">
+            <a href="login.html" class="btn-login">Login</a>
+            <a href="registro.html" class="btn-register">Registro</a>
+            <div class="cart-icon">
+                🛒<span class="cart-badge">2</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="cart-main-container">
+        <h2>Tu Carrito de Compras</h2>
+        
+        <div class="cart-split-layout">
+            <section class="cart-items-column">
+                
+                <div class="cart-item-row">
+                    <div class="product-img-wrapper" style="width: 90px; height: 90px; margin-bottom: 0;">
+                        <img src="img/placeholder.jpg" alt="Pastel de Chocolate Keto" class="responsiva-cover">
+                    </div>
+                    <div class="cart-item-info">
+                        <h4>Pastel de Chocolate Keto</h4>
+                        <p class="cart-item-tag">Sin Azúcar</p>
+                    </div>
+                    <div class="cart-item-qty">
+                        <label>Cant.</label>
+                        <input type="number" value="1" min="1">
+                    </div>
+                    <div class="cart-item-price">
+                        <span>$399.99</span>
+                    </div>
+                    <button class="btn-remove-item">✕</button>
+                </div>
+
+                <div class="cart-item-row">
+                    <div class="product-img-wrapper" style="width: 90px; height: 90px; margin-bottom: 0;">
+                        <img src="img/placeholder.jpg" alt="Galletas (6 pack)" class="responsiva-cover">
+                    </div>
+                    <div class="cart-item-info">
+                        <h4>Galletas (6 pack)</h4>
+                        <p class="cart-item-tag">Galletas</p>
+                    </div>
+                    <div class="cart-item-qty">
+                        <label>Cant.</label>
+                        <input type="number" value="1" min="1">
+                    </div>
+                    <div class="cart-item-price">
+                        <span>$149.99</span>
+                    </div>
+                    <button class="btn-remove-item">✕</button>
+                </div>
+
+            </section>
+
+            <aside class="cart-summary-column">
+                <div class="summary-card">
+                    <h3>Resumen del Pedido</h3>
+                    
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span>$549.98</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Envío (Guadalajara/Zapopan)</span>
+                        <span class="free-shipping">Gratis</span>
+                    </div>
+                    
+                    <hr class="summary-divider">
+                    
+                    <div class="summary-row total-row">
+                        <span>Total</span>
+                        <span>$549.98</span>
+                    </div>
+                    
+                    <button class="btn-checkout">Proceder al Pago</button>
+                    <a href="catalogo.html" class="btn-continue-shopping">Seguir comprando</a>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <span class="logo-icon">🎂</span>
+                <div class="logo-text">
+                    <h4>Sugary Delight</h4>
+                    <p>Pastelería de Diseño</p>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <input type="email" placeholder="Introduce tu correo para recibir ofertas">
+                <button class="btn-subscribe">Suscribirse</button>
+            </div>
+        </div>
+
+        <div class="footer-middle">
+            <div class="footer-column">
+                <h5>E-Commerce</h5>
+                <ul>
+                    <li><a href="catalogo.html">Ver Menú</a></li>
+                    <li><a href="#">Mi Carrito</a></li>
+                    <li><a href="registro.html">Crear Cuenta</a></li>
+                    <li><a href="login.html">Iniciar Sesión</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>Nosotros</h5>
+                <ul>
+                    <li><a href="index.html#sobre-nosotros">Nuestra Historia</a></li>
+                    <li><a href="#">Taller Artisan</a></li>
+                    <li><a href="#">Ingredientes Premium</a></li>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>Políticas</h5>
+                <ul>
+                    <li><a href="#">Términos sobre pedido</a></li>
+                    <li><a href="#">Envíos y Entregas</a></li>
+                    <li><a href="#">Cancelaciones</a></li>
+                    <li><a href="#">Aviso de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>Redes Sociales</h5>
+                <div class="app-downloads">
+                    <div class="app-badge-placeholder">App Store</div>
+                    <div class="app-badge-placeholder">Google Play</div>
+                </div>
+                <p class="join-us-text">Síguenos en:</p>
+                <div class="social-links">
+                    <a href="#">🌐</a>
+                    <a href="#">📷</a>
+                    <a href="#">📘</a>
+                    <a href="#">🕊️</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Sugary Delight © 2026. Todos los derechos reservados.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Zapopan</a>
+                <a href="#">Guadalajara</a>
+                <a href="#">Jalisco</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
