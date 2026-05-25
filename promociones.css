@@ -534,7 +534,7 @@ a {
     background-color: #ffffff;
     background-image: 
         linear-gradient(to right, rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 0) 65%), 
-        url('img/hero.jpeg');
+        url('img/Hero.jpeg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: contain;
