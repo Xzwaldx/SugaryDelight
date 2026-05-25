@@ -727,3 +727,20 @@ a {
 .hero-buttons .btn-secondary:hover {
     background-color: rgba(35, 166, 240, 0.05);
 }
+
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 500px; 
+    display: flex;
+    align-items: center;
+    padding: 60px 10%; 
+    background-color: #ffffff;
+    background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 0) 65%), 
+        url('img/Hero.jpeg');
+    
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
