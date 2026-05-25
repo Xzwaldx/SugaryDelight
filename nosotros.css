@@ -116,23 +116,6 @@ a {
     border-radius: 50%;
 }
 
-/* HERO SECTION */
-.about-hero {
-    background-color: #f3f3f3;
-    padding: 60px 40px;
-}
-
-.about-hero h2 {
-    font-size: 38px;
-    font-weight: bold;
-    color: #252b42;
-    margin-bottom: 10px;
-}
-
-.hero-subtitle {
-    font-size: 16px;
-    color: #737373;
-}
 
 /* CONTENEDOR PRINCIPAL CONTENIDO */
 .about-main-container {
@@ -406,6 +389,10 @@ a {
 .footer-bottom-links a:hover {
     color: #23a6f0;
 }
+
+/* ==========================================================================
+                                   HERO
+   ========================================================================== */
 .hero {
     position: relative;
     width: 100%;
@@ -414,6 +401,7 @@ a {
     align-items: center;
     padding: 60px 10%;
     background-color: #ffffff;
+    
     background-image: 
         linear-gradient(to right, rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 0) 65%), 
         url('img/Hero.jpeg');
@@ -430,6 +418,7 @@ a {
     position: relative;
     z-index: 2;
     max-width: 550px;
+    text-align: left;
 }
 
 .hero-content h2 {
@@ -451,7 +440,39 @@ a {
     margin-bottom: 30px;
 }
 
+/* BOTONES DEL HERO */
 .hero-buttons {
     display: flex;
     gap: 15px;
+}
+
+.hero-buttons .btn-primary {
+    background-color: #23a6f0;
+    color: #ffffff !important;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #23a6f0;
+    text-align: center;
+}
+
+.hero-buttons .btn-primary:hover {
+    background-color: #1a8cd8;
+    border-color: #1a8cd8;
+}
+
+.hero-buttons .btn-secondary {
+    background-color: transparent;
+    border: 1px solid #23a6f0;
+    color: #23a6f0 !important;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.hero-buttons .btn-secondary:hover {
+    background-color: rgba(35, 166, 240, 0.05);
 }
