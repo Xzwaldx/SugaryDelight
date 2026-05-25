@@ -536,7 +536,7 @@ a {
     background-color: #ffffff;
     background-image: 
         linear-gradient(to right, rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 0) 65%), 
-        url('img/hero.jpeg');
+        url('img/Hero.jpeg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -637,4 +637,40 @@ a {
 .product-item-box:hover, .product-item-box-wide:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.hero-buttons .btn-primary {
+    background-color: #23a6f0;
+    color: #ffffff;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #23a6f0;
+    text-align: center;
+}
+
+.hero-buttons .btn-primary:hover {
+    background-color: #1a8cd8;
+    border-color: #1a8cd8;
+}
+
+.hero-buttons .btn-secondary {
+    background-color: transparent;
+    border: 1px solid #23a6f0;
+    color: #23a6f0;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.hero-buttons .btn-secondary:hover {
+    background-color: rgba(35, 166, 240, 0.05);
 }
