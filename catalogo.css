@@ -544,6 +544,8 @@ a {
 
 .hero-short {
     min-height: 320px;
+    background-size: cover;
+    background-position: 85% center;
 }
 
 .hero-content {
